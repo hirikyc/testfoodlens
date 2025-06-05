@@ -1,0 +1,44 @@
+{
+  "name": "FoodLens",
+  "short_name": "FoodLens",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#ffb800",
+  "description": "Aplikasi deteksi makanan dan rekomendasi restoran.",
+  "icons": [
+    {
+      "src": "/images/Logo-App/food_lens_logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/Logo-App/food_lens_logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Unggah Foto Baru",
+      "short_name": "Unggah Foto",
+      "description": "Shortcut ke halaman tambah/unggah data makanan baru",
+      "url": "/#/upload",
+      "icons": [{ "src": "/images/Logo-App/food_lens_logo-96.jpg", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+  {
+    "src": "/images/Logo-App/screenshot-desktop-1.png",
+    "sizes": "1280x720",
+    "type": "image/png",
+    "form_factor": "wide"
+  },
+  {
+    "src": "/images/Logo-App/screenshot-mobile-1.png",
+    "sizes": "375x812",
+    "type": "image/png",
+    "form_factor": "narrow"
+  }
+ ]
+}
